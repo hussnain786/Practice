@@ -35,3 +35,17 @@ void list::displayNode()
 		temp = temp->next;
 	}
 }
+
+int list::findNode(int value)
+{
+	node* temp = head;
+	int currIndex = 1;
+	while (temp && temp->value != value)
+	{
+		temp = temp->next;
+		currIndex++;
+	}
+	if (temp) return currIndex;
+
+	return 0;
+}
