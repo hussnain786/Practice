@@ -20,7 +20,7 @@ int main()
 
 	
 	cout << "Deleting 12.." << endl;
-	tree.remove(12);
+	tree.remove(5);
 
 	tree.showNodesInOrder();
 	return 0;
