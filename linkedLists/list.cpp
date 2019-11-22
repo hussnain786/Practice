@@ -49,3 +49,22 @@ int list::findNode(int value)
 
 	return 0;
 }
+
+bool list::detectLoop()
+{
+	node* slow = head;
+	node* fast = head;
+	while (slow && fast && fast->next)
+	{
+		slow = slow->next;
+		fast = fast->next->next;
+
+		if (slow == fast)
+		{
+			cout << "Loop found" << endl;
+			return true;
+		}
+	}
+	cout << "Loop not found" << endl;
+	return false;
+}

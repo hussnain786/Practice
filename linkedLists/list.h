@@ -20,4 +20,5 @@ public:
 	void createNode(int value);
 	void displayNode();
 	int findNode(int value);
+	bool detectLoop();
 };
