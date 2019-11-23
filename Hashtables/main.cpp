@@ -18,7 +18,7 @@ int main()
 	Hashy.AddItem("Tayyab", "Latte");
 	Hashy.AddItem("Ben", "Fanta");
 	
-	//Hashy.printTable();
+	Hashy.printTable();
 	Hashy.printItemsInIndex(8);
 	return 0;
 }
