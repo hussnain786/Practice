@@ -19,6 +19,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "polymorphism", "polymorphis
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hashtables", "Hashtables\Hashtables.vcxproj", "{772A98BD-D28C-4383-BE97-975F25F114D0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamicProgramming", "dynamicProgramming\dynamicProgramming.vcxproj", "{56A9C021-6CAF-4163-B46D-A2FDE80A7188}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -91,6 +93,14 @@ Global
 		{772A98BD-D28C-4383-BE97-975F25F114D0}.Release|x64.Build.0 = Release|x64
 		{772A98BD-D28C-4383-BE97-975F25F114D0}.Release|x86.ActiveCfg = Release|Win32
 		{772A98BD-D28C-4383-BE97-975F25F114D0}.Release|x86.Build.0 = Release|Win32
+		{56A9C021-6CAF-4163-B46D-A2FDE80A7188}.Debug|x64.ActiveCfg = Debug|x64
+		{56A9C021-6CAF-4163-B46D-A2FDE80A7188}.Debug|x64.Build.0 = Debug|x64
+		{56A9C021-6CAF-4163-B46D-A2FDE80A7188}.Debug|x86.ActiveCfg = Debug|Win32
+		{56A9C021-6CAF-4163-B46D-A2FDE80A7188}.Debug|x86.Build.0 = Debug|Win32
+		{56A9C021-6CAF-4163-B46D-A2FDE80A7188}.Release|x64.ActiveCfg = Release|x64
+		{56A9C021-6CAF-4163-B46D-A2FDE80A7188}.Release|x64.Build.0 = Release|x64
+		{56A9C021-6CAF-4163-B46D-A2FDE80A7188}.Release|x86.ActiveCfg = Release|Win32
+		{56A9C021-6CAF-4163-B46D-A2FDE80A7188}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
