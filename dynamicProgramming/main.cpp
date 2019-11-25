@@ -46,7 +46,7 @@ int fib_2(int n)
 int main()
 {
 	int newR;
-	newR = fib_2(10);
+	newR = fib(40);
 	cout << "Fib = " << newR << endl;
 	return 0;
 }
