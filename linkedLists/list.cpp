@@ -68,3 +68,21 @@ bool list::detectLoop()
 	cout << "Loop not found" << endl;
 	return false;
 }
+
+void list::insertNode(int value, int loc)
+{
+	node* curr = new node;
+	node* pre = new node;
+	node* temp = new node;
+	curr = head;
+	for (int i = 0; i < loc; i++)
+	{
+		pre = curr;
+		//inserted
+		curr = curr->next;
+	}
+
+	temp->value = value;
+	pre->next = temp;
+	temp->next = curr;
+}

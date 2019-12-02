@@ -21,4 +21,5 @@ public:
 	void displayNode();
 	int findNode(int value);
 	bool detectLoop();
+	void insertNode(int value, int loc);
 };

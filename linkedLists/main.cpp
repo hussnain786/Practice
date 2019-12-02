@@ -11,12 +11,13 @@ int main()
 	n.createNode(30);
 	n.createNode(49);
 
+	n.insertNode(14, 1);
+
 	n.displayNode();
 
-	int curr = n.findNode(20);
-	cout << curr << endl;
-
-	n.detectLoop();
+	//int curr = n.findNode(20);
+	//cout << curr << endl;
+	//n.detectLoop();
 
 	return 0;
 }
