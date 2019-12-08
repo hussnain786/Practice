@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hashtables", "Hashtables\Ha
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamicProgramming", "dynamicProgramming\dynamicProgramming.vcxproj", "{56A9C021-6CAF-4163-B46D-A2FDE80A7188}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Filehandling", "Filehandling\Filehandling.vcxproj", "{0E923A7C-5A7A-4D1B-9F1A-EBAD9D66DFB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -101,6 +103,14 @@ Global
 		{56A9C021-6CAF-4163-B46D-A2FDE80A7188}.Release|x64.Build.0 = Release|x64
 		{56A9C021-6CAF-4163-B46D-A2FDE80A7188}.Release|x86.ActiveCfg = Release|Win32
 		{56A9C021-6CAF-4163-B46D-A2FDE80A7188}.Release|x86.Build.0 = Release|Win32
+		{0E923A7C-5A7A-4D1B-9F1A-EBAD9D66DFB9}.Debug|x64.ActiveCfg = Debug|x64
+		{0E923A7C-5A7A-4D1B-9F1A-EBAD9D66DFB9}.Debug|x64.Build.0 = Debug|x64
+		{0E923A7C-5A7A-4D1B-9F1A-EBAD9D66DFB9}.Debug|x86.ActiveCfg = Debug|Win32
+		{0E923A7C-5A7A-4D1B-9F1A-EBAD9D66DFB9}.Debug|x86.Build.0 = Debug|Win32
+		{0E923A7C-5A7A-4D1B-9F1A-EBAD9D66DFB9}.Release|x64.ActiveCfg = Release|x64
+		{0E923A7C-5A7A-4D1B-9F1A-EBAD9D66DFB9}.Release|x64.Build.0 = Release|x64
+		{0E923A7C-5A7A-4D1B-9F1A-EBAD9D66DFB9}.Release|x86.ActiveCfg = Release|Win32
+		{0E923A7C-5A7A-4D1B-9F1A-EBAD9D66DFB9}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
