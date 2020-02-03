@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "dynamicProgramming", "dynam
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Filehandling", "Filehandling\Filehandling.vcxproj", "{0E923A7C-5A7A-4D1B-9F1A-EBAD9D66DFB9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Blockchain", "Blockchain\Blockchain.vcxproj", "{09604DA1-06C9-477E-90EA-7D9AC238B29E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{0E923A7C-5A7A-4D1B-9F1A-EBAD9D66DFB9}.Release|x64.Build.0 = Release|x64
 		{0E923A7C-5A7A-4D1B-9F1A-EBAD9D66DFB9}.Release|x86.ActiveCfg = Release|Win32
 		{0E923A7C-5A7A-4D1B-9F1A-EBAD9D66DFB9}.Release|x86.Build.0 = Release|Win32
+		{09604DA1-06C9-477E-90EA-7D9AC238B29E}.Debug|x64.ActiveCfg = Debug|x64
+		{09604DA1-06C9-477E-90EA-7D9AC238B29E}.Debug|x64.Build.0 = Debug|x64
+		{09604DA1-06C9-477E-90EA-7D9AC238B29E}.Debug|x86.ActiveCfg = Debug|Win32
+		{09604DA1-06C9-477E-90EA-7D9AC238B29E}.Debug|x86.Build.0 = Debug|Win32
+		{09604DA1-06C9-477E-90EA-7D9AC238B29E}.Release|x64.ActiveCfg = Release|x64
+		{09604DA1-06C9-477E-90EA-7D9AC238B29E}.Release|x64.Build.0 = Release|x64
+		{09604DA1-06C9-477E-90EA-7D9AC238B29E}.Release|x86.ActiveCfg = Release|Win32
+		{09604DA1-06C9-477E-90EA-7D9AC238B29E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
