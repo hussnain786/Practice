@@ -1,5 +1,6 @@
 #include "BlockChain.h"
 #include <iostream>
+#include "sha256.h"
 
 using namespace std;
 
@@ -15,6 +16,12 @@ int main()
 
 	cout << "Mining block 3..." << endl;
 	bChain.AddBlock(Block(3, "Block 3 Data"));
+
+	string str = "Block 3 Data";
+
+	string hash = sha256(str);
+
+	cout << hash << endl;
 
 	return 0;
 }
