@@ -1,3 +1,5 @@
+#include "..\Blockchain1\Block.h"
+#include "..\Blockchain1\Block.h"
 #include "Block.h"
 #include "sha256.h"
 #include <sstream>
